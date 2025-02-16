@@ -285,3 +285,6 @@ psql -U freecodecamp -f universe.sql
 psql -U freecodecamp -L
 psql -U freecodecamp -l
 psql -U freecodecamp -d universe
+pg_dump -cC --inserts -U freecodecamp universe > universe.sql
+ls --color=auto
+git add .
